@@ -1,0 +1,15 @@
+{
+  "name": "playwrightbatch53",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test"
+  },
+  "dependencies": {
+    "playwright": "^1.51.1"
+  }
+}

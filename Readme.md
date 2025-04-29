@@ -11,3 +11,5 @@ git push -u origin main
 git remote add origin https://github.com/atharavyadav/batch53.git
 git branch -M main
 git push -u origin main
+
+npx playwright codegen

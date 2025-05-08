@@ -7,3 +7,9 @@ Feature: Login to Register Page
     Examples:
       | firstname | lastname | phone | email          |
       | testuser1 | pass123  | 19090 | test@gmail.com |
+
+  Scenario Outline: User navigates to the register page and fills Mailing  Information
+    When the user enters contact information "<Address>" "<City>" "<State>" <Postal> "<Country>"
+
+    Examples:
+      | Address | City | State | Postal | Country |

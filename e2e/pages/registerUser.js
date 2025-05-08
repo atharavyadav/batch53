@@ -1,4 +1,3 @@
-const browserManager = require("./browserResusableComponents");
 const logger = require("./logger");
 
 class RegisterUser {
@@ -10,8 +9,7 @@ class RegisterUser {
         this.emailInput = "//input[@id='userName']";
     }
 
-    async entercontactInformation(firstname, lastname, phone, email) {
-        const page = browserManager.getPage(); // Get the page object
+    async entercontactInformation(page, firstname, lastname, phone, email) {
         logger.log(`Entering contact information: ${firstname}, ${lastname}, ${phone}, ${email}`);
         // Use the selectors defined in the constructor
         await page.locator(this.firstNameInput).fill(firstname);

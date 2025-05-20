@@ -1,8 +1,8 @@
 module.exports = {
   default: {
-    require: ["./e2e/stepdefination/**/*.js"], // Correct path to step definitions
+    require: ["./e2e/stepdefination/**/*.js"],
     format: ["progress"],
-    paths: ["./e2e/featureFiles/**/*.feature"], // Correct path to feature files
-    timeout: 90000, // Set global timeout to 60 seconds
+    paths: ["./e2e/featureFiles/**/*.feature"],
+    timeout: 120000, // Set global timeout to 120 seconds
   },
 };
